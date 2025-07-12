@@ -1,0 +1,156 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: 'avenir';
+  scroll-behavior: smooth;
+}
+
+body {
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.background{
+  position: absolute;
+  top: -10%;
+}
+
+#home {
+  background: linear-gradient(#09122C, #393E46, #393E46, #09122C);
+  padding-bottom: 100px;
+}
+
+.nav {
+  height: 120px;
+  width: 100%;
+  background-color: #393E46;
+  opacity: 0.9;
+  color: white;
+  display: flex;
+  gap: 40px;
+  text-transform: uppercase;
+  position: fixed;
+  padding-left: 850px;
+  z-index: 1000;
+  align-items: flex-end;
+  padding-bottom: 15px;
+}
+
+.nav h3 {
+  font-weight: 50;
+  font-size: 12px;
+} 
+
+.logo-section {
+  margin-top: -70px;
+} 
+
+.logo-name1 {
+  color: skyblue;
+  font-weight: 700;
+  font-size: 40px;
+  padding-left: 600px;
+  margin-top: -280px;
+}
+
+.logo-name2 {
+  color: white;
+  font-weight: 700;
+  font-size: 40px;
+  padding-left: 560px;
+  margin-top: -10px;
+}
+
+.heading {
+  text-transform: capitalize;
+  color: white;
+  font-weight: 900px;
+  font-size: 50px;
+  padding: 200px 80px;
+}
+
+.content {
+  padding-top: 15px;
+  padding-left: 200px;
+  padding-right: 200px;
+  text-align: center;
+  color: darkgrey;
+}
+
+.btn1 {
+  border-radius: 30px;
+  margin-top: 40px;
+  background: skyblue;
+  color: white;
+  padding: 18px 36px;
+  font-size: 18px;
+  text-transform: capitalize;
+  margin-left: 515px;
+
+}
+
+.btn2 {
+  border-radius: 30px;
+  padding: 18px 36px;
+  background: skyblue;
+  color: white;
+  font-size: 18px;
+  text-transform: capitalize;
+  margin-left: 50px;
+}
+
+#links {
+  background-color: #09122C;
+  padding-bottom: 100px;
+  display: flex;
+}
+
+.quick {
+  flex: 1;
+  margin-left: 90px;
+  text-transform: capitalize;
+  color: white;
+  font-size: 23px;
+  font-weight: bolder;
+}
+
+.items {
+  margin-left: 10px;
+  font-size: 13px;
+  font-weight: normal;
+  line-height: 2.5;
+}
+
+.others {
+  flex: 1;
+  padding-right: 650px;
+  text-transform: capitalize;
+  color: white;
+  font-size: 23px;
+  font-weight: bolder;
+}
+
+.item {
+  margin-left: 10px;
+  font-size: 13px;
+  font-weight: normal;
+  line-height: 2.5;
+} 
+
+.footer-bar {
+  background-color: #393E46;
+  color: white;
+  text-align: center;
+  padding: 0.1px 0;
+  font-size: 18px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.footer-bar .highlight {
+  color: #b0c46f;
+  font-weight: 500;
+} 
