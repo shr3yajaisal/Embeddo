@@ -18,7 +18,7 @@ body {
 
 #home {
   background: linear-gradient(#09122C, #393E46, #393E46, #09122C);
-  padding-bottom: 100px;
+  padding-bottom: 50px;
 }
 
 .nav {
@@ -100,7 +100,84 @@ body {
   margin-left: 50px;
 }
 
-#links {
+#second {
+  background: #09122C;
+  padding-top: 1px;
+  padding-bottom: 500px;
+}
+
+.objective-box {
+  margin-left: 25px;
+  width: 800px;
+  height: 310px;
+  background-color: rgba(57, 62, 70, 0.7);
+  border-radius: 30px;
+}
+
+.objective-box h2 {
+  padding-top: 10px;
+  padding-left: 25px;
+  margin-bottom: -10px;
+  font-size: 35px;
+  color: white;
+}
+
+.objective-list {
+  list-style: none;
+  color: #C2CDDF;
+  padding-left: 30px;
+  padding-top: 2px;
+}
+
+.objective-list li {
+  padding-top: 0;
+  margin-top: 0;
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  margin-bottom: 5px;
+  line-height: 1.4;
+  max-width: 100%;
+}
+
+.circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 15px;
+  flex-shrink: 0;
+}
+
+.inner-circle {
+  background-color: white;
+  color: black;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.green  { background-color: #2F5249; }
+.teal   { background-color: #437057; }
+.lime   { background-color: #97B067; }
+.yellow { background-color: #E3DE61; }
+.cream  { background-color: #ECEDB0; }
+
+.highlights h2 {
+  color: white;
+  font-size: 35px;
+  text-align: center;
+  padding-top: 50px;
+}
+
+/*#links {
   background-color: #09122C;
   padding-bottom: 100px;
   display: flex;
@@ -136,7 +213,7 @@ body {
   font-size: 13px;
   font-weight: normal;
   line-height: 2.5;
-} 
+} */
 
 .footer-bar {
   background-color: #393E46;
